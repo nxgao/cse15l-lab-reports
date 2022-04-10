@@ -1,10 +1,19 @@
-Hello World!!
-That's crazy
+## Installing VScode
 
-# The largest heading
-## The second largest heading
-###### The smallest heading
-**This is bold text**
-*This text is italicized*
-~~This was mistaken text~~
-***All this text is important***
+
+## Remotely Connecting
+
+
+## Trying Some Commands
+
+
+## Moving Files with scp
+
+
+## Setting an SSH Key
+
+
+## Optimizing Remote Running
+
+
+
