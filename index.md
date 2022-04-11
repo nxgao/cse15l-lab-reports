@@ -16,6 +16,7 @@ The next step is then connecting to a remote host. First you need to open your t
 ## Trying Some Commands
 
 Next we're going to try some command options available to us. The most basic ones are:
+
 ● cd ~: 
 ● cd: 
 ● ls: 
@@ -33,8 +34,6 @@ Lets say we're trying to move the file "WhereAmI.java." What we are going to do 
 <img width="1440" alt="Screen Shot 2022-04-10 at 4 44 56 PM" src="https://user-images.githubusercontent.com/103228539/162650786-b879680c-7f19-4cda-9ca4-fd8947b6cf50.png">
 
 ## Setting an SSH Key
-
-<img width="1440" alt="Screen Shot 2022-04-10 at 2 47 02 PM" src="https://user-images.githubusercontent.com/103228539/162651266-8149ab12-5b57-49f2-bd7f-23b60e9ce6ab.png">
 
 If your trying to same some time, then setting an SSH key will null the requirement of entering in the password everytime. First go back to your computer, then type in "ssh-keygen" in the terminal. The statement "Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa):" will appear, in which then just copy the text within the parentheses and paste it into the terminal and press enter. Then when it says "Enter passphrase," just press enter both times. After that it will pop up some text, and now the next time to hwn you try to connect to ssh, it will not require the password.
 
