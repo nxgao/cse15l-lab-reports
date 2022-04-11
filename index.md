@@ -16,13 +16,18 @@ The next step is then connecting to a remote host. First you need to open your t
 ## Trying Some Commands
 
 Next we're going to try some command options available to us. The most basic ones are:
-
 ● cd ~: 
+
 ● cd: 
+
 ● ls: 
+
 ● ls -l: 
+
 ● ls -a: 
+
 ● ls -t: 
+
 ● ls -lat: 
 
 <img width="1440" alt="Screen Shot 2022-04-10 at 12 37 24 AM" src="https://user-images.githubusercontent.com/103228539/162651250-f121e6e7-52e8-4a9e-b90c-bdb1d4aa36fc.png">
