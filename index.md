@@ -4,6 +4,7 @@
 
 ## Remotely Connecting
 
+<img width="1440" alt="Screen Shot 2022-04-10 at 12 33 57 AM" src="https://user-images.githubusercontent.com/103228539/162651118-fd1aae1f-0d6a-4cce-ba72-2789d5c0c7ff.png">
 
 ## Trying Some Commands
 
