@@ -16,19 +16,20 @@ The next step is then connecting to a remote host. First you need to open your t
 ## Trying Some Commands
 
 Next we're going to try some command options available to us. The most basic ones are:
-● cd ~: 
 
-● cd: 
+● cd: moves you to your home directory
 
-● ls: 
+● cd ~: moves you to the directory specified, such as "cd Documents"
 
-● ls -l: 
+● ls: lists the files in the current directory
 
-● ls -a: 
+● ls -a: lists all files, including those normally invisible in UNIX
 
-● ls -t: 
+● ls -lat: lists all files and information of those files
 
-● ls -lat: 
+● mkdir: it creates a new subdirectory named new_dir
+
+● exit: to reutnr back to your computer
 
 <img width="1440" alt="Screen Shot 2022-04-10 at 12 37 24 AM" src="https://user-images.githubusercontent.com/103228539/162651250-f121e6e7-52e8-4a9e-b90c-bdb1d4aa36fc.png">
 
@@ -46,5 +47,10 @@ If your trying to same some time, then setting an SSH key will null the requirem
   
 ## Optimizing Remote Running
 
+However, we can still optimize the running time even further with these methods. First we can type in ssh cs15lsp22zz@ieng6.ucsd.edu " " with any command like "ls" within the quotation marks(if you have the SSH hey set up you won't have to write the password). Which then it will do the instucted command, while still staying on your computer. You can also put ";" inbetween commands to do then all at once: "javac WhereAmI.java;java WhereAmI."
+  
+<img width="1440" alt="Screen Shot 2022-04-10 at 7 37 55 PM" src="https://user-images.githubusercontent.com/103228539/162655873-58ea20dd-11cc-4d31-b25c-a35696ad4754.png">
 
+## Conclusion
 
+This then concluded our first CSE15L lab on SSH's and how they are opmtimized.
