@@ -1,4 +1,5 @@
 # CSE15L Week 2 Lab Report
+This is the Lab Report for Week 2 of CSE15L, due on the 10th of April, 2022. In this lab we utlilized ssh's for the first time.
 
 ## Installing VScode
 
