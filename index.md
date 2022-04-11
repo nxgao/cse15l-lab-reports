@@ -8,7 +8,7 @@
 
 ## Trying Some Commands
 
-<img width="1440" alt="Screen Shot 2022-04-10 at 2 47 02 PM" src="https://user-images.githubusercontent.com/103228539/162651170-a11e42a1-b75f-4e8f-ac89-204bf7ab1ba9.png">
+<img width="1440" alt="Screen Shot 2022-04-10 at 12 37 24 AM" src="https://user-images.githubusercontent.com/103228539/162651250-f121e6e7-52e8-4a9e-b90c-bdb1d4aa36fc.png">
 
 ## Moving Files with scp
 
@@ -16,6 +16,7 @@
 
 ## Setting an SSH Key
 
+<img width="1440" alt="Screen Shot 2022-04-10 at 2 47 02 PM" src="https://user-images.githubusercontent.com/103228539/162651266-8149ab12-5b57-49f2-bd7f-23b60e9ce6ab.png">
 
 ## Optimizing Remote Running
 
