@@ -8,6 +8,7 @@
 
 ## Trying Some Commands
 
+<img width="1440" alt="Screen Shot 2022-04-10 at 2 47 02 PM" src="https://user-images.githubusercontent.com/103228539/162651170-a11e42a1-b75f-4e8f-ac89-204bf7ab1ba9.png">
 
 ## Moving Files with scp
 
