@@ -3,7 +3,7 @@ This is the Lab Report for Week 2 of CSE15L, due on the 10th of April, 2022. In 
 
 ## Installing VScode
 
-First you need to download VScode, which I already did. Its a simple download, you just got to go to https://code.visualstudio.com/, follow the instructions and download it from there. Then, if you have Windows, you must go to https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse, to find out how to Install OpenSSH. However, if you have a Mac then you already have SSH and can move on.
+First you need to download VScode, which I already did. Its a simple download, you just got to go [here](https://code.visualstudio.com/), follow the instructions and download it from there. Then, if you have Windows, you must then go this [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse), to find out how to Install OpenSSH. However, if you have a Mac then you already have SSH and can move on.
 
 <img width="1440" alt="Screen Shot 2022-04-10 at 12 31 30 AM" src="https://user-images.githubusercontent.com/103228539/162650954-6a3c4f5b-00e8-4022-8ca5-9c178ec621f3.png">
 
