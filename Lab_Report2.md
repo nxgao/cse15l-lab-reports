@@ -10,8 +10,7 @@ This is the Lab Report for Week 4 of CSE15L, due on the 24th of April, 2022. In 
 
 <img width="1190" alt="Screen Shot 2022-04-24 at 7 57 33 PM" src="https://user-images.githubusercontent.com/103228539/165013748-4b571dc2-a65e-44b3-a065-22630079257f.png">
 
-The first change we made was creatinf if-statments that would indicate that if the 
-
+The first thing noticed when we did the tests is that if you had an line after the links that was empty, it will cause the code to break. So the first change we made was a simple ```if-statment``` that would indicate that if the open bracket does not exist(```if(openBracket ==-1)```), then the function would ```break```.
 
 
 ## Second Change
