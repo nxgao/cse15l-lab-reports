@@ -10,39 +10,21 @@ This is the Lab Report for Week 4 of CSE15L, due on the 24th of April, 2022. In 
 
 <img width="1190" alt="Screen Shot 2022-04-24 at 7 57 33 PM" src="https://user-images.githubusercontent.com/103228539/165013748-4b571dc2-a65e-44b3-a065-22630079257f.png">
 
-The first thing noticed when we did the tests is that if you had an line after the links that was empty, it will cause the code to break. So the first change we made was a simple ```if-statment``` that would indicate that if the open bracket does not exist(```if(openBracket ==-1)```), then the function would ```break```.
+The first thing noticed when we did the tests is that if you had an line after the links that was empty, it will cause the code to break. So the first change we made was a simple ```if-statment``` that would indicate that if the open bracket does not exist(```if(openBracket ==-1)```), then the function would ```break```. In which then after that the code ran without error.
 
 
 ## Second Change
 
 <img width="1192" alt="Screen Shot 2022-04-24 at 7 58 37 PM" src="https://user-images.githubusercontent.com/103228539/165013828-f66222dd-7a71-4349-add4-e8ddcc9de2c5.png">
 
-The next step is then connecting to a remote host. First you need to open your terminal(Terminal → New Terminal menu option) in VScode and type in "```ssh cs15lsp22zz@ieng6.ucsd.edu```," of which the "```zz```" part will be different for everybody. If this is your first time then a message will pop up saying "```Are you sure you want to continue connecting (yes/no/[fingerprint])?```" and just type in "```yes```." Then type in your UCSD student login password(You will not be able to see it getting typed in for security reasons). Then you are logged in remotly to another computer.
+Based on our first test, we were then curious as to what would happen if instead of an empty line, we had a line with just a ```[``` on it. Of which then we discovered that this will also cause the code to break. So our second change was a simply another ```if-statment```, which this time would indicate if the closed bracket does not exist(```if(closeBracket ==-1)```), then the function would ```break```.
 
 
 ## Third Change
 
 <img width="1191" alt="Screen Shot 2022-04-24 at 8 00 24 PM" src="https://user-images.githubusercontent.com/103228539/165013791-81fbd1b7-305f-42d8-88dd-bafbcea79f5b.png">
 
-
-Next we're going to try some command options available to us. The most basic ones are:
-
-● ```cd```: moves you to your home directory
-
-● ```cd ~```: moves you to the directory specified, such as "cd Documents"
-
-● ```ls```: lists the files in the current directory
-
-● ```ls -a```: lists all files, including those normally invisible in UNIX
-
-● ```ls -lat```: lists all files and information of those files
-
-● ```mkdir```: it creates a new subdirectory named new_dir
-
-● ```exit```: to reutnr back to your computer
-
-
-
+Recognizing that there was a pattern happening, we decided that our third test to be with missing parentheses; and as we expected, the code would break if there was missing parentheses. Therefore, our final fix would be to add both ```if-statments```: if the closed parentheses does not exist(```if(closeParen ==-1)```), or if the open parentheses does not exist(```if(openParen ==-1)```).
 
 ## Conclusion
 
