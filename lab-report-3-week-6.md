@@ -24,10 +24,6 @@ Then in your Github, click on your top right profile picture and then click on s
 
 <img width="1440" alt="Screen Shot 2022-05-06 at 11 09 12 AM" src="https://user-images.githubusercontent.com/103228539/167196041-e5ee7794-31db-49a5-b5ee-b75efed1e5c9.png">
 
-Based on our first test, we were then curious as to what would happen if instead of an empty line, we had a line with just a ```[``` on it. Of which then we discovered that this will also cause the code to break. So our second change was a simply another ```if-statment```, which this time would indicate if the closed bracket does not exist(```if(closeBracket ==-1)```), then the function would ```break```.
-
-<img width="1192" alt="Screen Shot 2022-04-24 at 7 58 37 PM" src="https://user-images.githubusercontent.com/103228539/165013828-f66222dd-7a71-4349-add4-e8ddcc9de2c5.png">
-
 ## Copy whole directories with scp -r
 
 [Third Test Input](https://github.com/nxgao/cse15l-lab-reports/blob/main/third_Test.txt)
