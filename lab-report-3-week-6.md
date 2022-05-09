@@ -26,11 +26,7 @@ Then in your Github, click on your top right profile picture and then click on s
 
 ## Copy whole directories with scp -r
 
-[Third Test Input](https://github.com/nxgao/cse15l-lab-reports/blob/main/third_Test.txt)
 
-Recognizing that there was a pattern happening, we decided that our third test to be with missing parentheses; and as we expected, the code would break if there was missing parentheses. Therefore, our final fix would be to add both ```if-statments```: if the closed parentheses does not exist(```if(closeParen ==-1)```), or if the open parentheses does not exist(```if(openParen ==-1)```).
-
-<img width="1191" alt="Screen Shot 2022-04-24 at 8 00 24 PM" src="https://user-images.githubusercontent.com/103228539/165013791-81fbd1b7-305f-42d8-88dd-bafbcea79f5b.png">
 
 ## Conclusion
 
