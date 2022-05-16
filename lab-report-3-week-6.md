@@ -28,9 +28,11 @@ Then in ```.ssh``` in your ```ieng6```, create a ```config``` file using ```vim 
 
 <img width="331" alt="Screen Shot 2022-05-14 at 11 54 18 AM" src="https://user-images.githubusercontent.com/103228539/168501125-aaf78b99-b35f-40dc-9942-c813142bb41c.png">
 
-Now we can finally edit a file. Go to your repository, and type in ```vim (filename)```. After you make the edit, type in ```git commit -a -m "(summary of what you did to the file)"``` and then ```git push origin main```.
+Now we can finally edit a file. Go to your repository, and type in ```vim (filename)``` to access and make changes to the file. After you make the edit and save, type in ```git commit -a -m "(summary of what you did to the file)"``` and then ```git push origin main```. 
 
 <img width="1440" alt="Screen Shot 2022-05-12 at 6 17 02 PM" src="https://user-images.githubusercontent.com/103228539/168408179-35e3fe12-361b-4110-8b78-80b2a041eefc.png">
+
+(This is the added commit)[https://github.com/nxgao/markdown-parser-main/blob/main/Added_Commit]
 
 ## Copy whole directories with scp -r
 
