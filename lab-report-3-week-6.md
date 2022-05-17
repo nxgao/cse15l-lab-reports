@@ -32,7 +32,7 @@ Now we can finally edit a file. Go to your repository, and type in ```vim (filen
 
 <img width="1440" alt="Screen Shot 2022-05-12 at 6 17 02 PM" src="https://user-images.githubusercontent.com/103228539/168408179-35e3fe12-361b-4110-8b78-80b2a041eefc.png">
 
-### [This is the added commit](https://github.com/nxgao/markdown-parser-main/blob/main/Added_Commit)
+### [This is the added commit](https://github.com/nxgao/cse15l-lab-reports/blob/main/Added_Commit)
 
 
 ## Copy whole directories with scp -r
