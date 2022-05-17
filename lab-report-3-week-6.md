@@ -34,11 +34,20 @@ Now we can finally edit a file. Go to your repository, and type in ```vim (filen
 
 ### [This is the added commit](https://github.com/nxgao/markdown-parser-main/blob/main/Added_Commit)
 
+
 ## Copy whole directories with scp -r
 
 While in your own computer's command line, type in ```scp -r . cs15lsp22zz@ieng6.ucsd.edu:~/markdown-parser-main```, where it will copy the files.
 
 <img width="1440" alt="Screen Shot 2022-05-12 at 6 19 15 PM" src="https://user-images.githubusercontent.com/103228539/168408174-c1fc56f9-5a8f-4a75-beb7-76daffd35cbe.png">
+
+Here while we are logged into our ieng6 account, compiling and running the files in the repository
+
+<img width="1155" alt="Screen Shot 2022-05-15 at 6 19 11 PM" src="https://user-images.githubusercontent.com/103228539/168504328-8c83558e-0a28-4361-aae7-c4d854812644.png">
+
+If we want to combine everything together into one line, it would look something like this
+
+<img width="1359" alt="Screen Shot 2022-05-16 at 7 09 29 PM" src="https://user-images.githubusercontent.com/103228539/168714059-2c2390a9-6aaa-4516-a495-de8a1562cc6d.png">
 
 ## Conclusion
 
