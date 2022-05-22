@@ -14,7 +14,7 @@ We are inputing this code into Markdown:
 This code should produce: 
 [url.com, `google.com, google.com, ucsd.edu]
 
-Our Markdown-Parser had the same result. However, the other group's Markdown produced something different: [url.com, `google.com, google.com]
+Our Markdown-Parser had the same result. However, the other group's Markdown produced something different: 
 
 <img width="899" alt="Screen Shot 2022-05-22 at 1 19 05 PM" src="https://user-images.githubusercontent.com/103228539/169714211-6c6fefd8-46c7-42f3-9e4b-604e28731050.png">
 
