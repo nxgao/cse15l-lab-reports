@@ -32,11 +32,11 @@ Other group's Markdown produced: [a.com, a.com((]
 
 ## Third Test
 
-We are inputing this code into Markdown: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/)
+We are inputing this code into Markdown:
 
 <img width="666" alt="Screen Shot 2022-05-22 at 1 27 05 AM" src="https://user-images.githubusercontent.com/103228539/169685789-7bbc2e12-875a-471b-a51f-704f1d973171.png">
 
-This code should produce this result: 
+This code should produce this result: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/)
 
 The resulting output from both our and the other group's Markdown-Parser were the same, but nonetheless wrong: [This Result](https://github.com/nxgao/cse15l-lab-reports/blob/main/first-code-result)
 
