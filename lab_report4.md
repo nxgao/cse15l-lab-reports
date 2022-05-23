@@ -24,34 +24,31 @@ We are inputing this code into Markdown:
 
 <img width="317" alt="Screen Shot 2022-05-22 at 1 25 39 AM" src="https://user-images.githubusercontent.com/103228539/169685729-7de52f66-18c8-417d-b46f-e92df50cf650.png">
 
-This code should produce: 
+This code should produce: [a.com, b.com, a.com((, example.com]
 
-Our Markdown produced: [a.com, a.com((, example.com]
+However, this time neither of our codes would produce the right outcome as ours Our Markdown produced: [a.com, a.com((, example.com]
 
 Other group's Markdown produced: [a.com, a.com((]
 
-
-Based on our first test, we were then curious as to what would happen if instead of an empty line, we had a line with just a ```[``` on it. Of which then we discovered that this will also cause the code to break. So our second change was a simply another ```if-statment```, which this time would indicate if the closed bracket does not exist(```if(closeBracket ==-1)```), then the function would ```break```.
-
-
 ## Third Test
 
-We are inputing this code into Markdown:
+We are inputing this code into Markdown: [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/)
 
 <img width="666" alt="Screen Shot 2022-05-22 at 1 27 05 AM" src="https://user-images.githubusercontent.com/103228539/169685789-7bbc2e12-875a-471b-a51f-704f1d973171.png">
 
-This code should produce this result:
+This code should produce this result: 
 
-<img width="576" alt="Screen Shot 2022-05-22 at 11 20 48 AM" src="https://user-images.githubusercontent.com/103228539/169709975-d02fd227-e9ba-4a5a-acd6-e0319a53ff02.png">
-
-The resulting output from both our and the other group's Markdown-Parser were the same: [This Result](https://github.com/nxgao/cse15l-lab-reports/blob/main/first-code-result)
+The resulting output from both our and the other group's Markdown-Parser were the same, but nonetheless wrong: [This Result](https://github.com/nxgao/cse15l-lab-reports/blob/main/first-code-result)
 
 ## Additional Questions
-1.Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
  - 
-2.Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
  - 
-3.Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+
+3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
  - 
 
 ## Conclusion
