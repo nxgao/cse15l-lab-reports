@@ -26,9 +26,11 @@ We are inputing this code into Markdown:
 
 This code should produce: [a.com, b.com, a.com((, example.com]
 
-However, this time neither of our codes would produce the right outcome as ours Our Markdown produced: [a.com, a.com((, example.com]
+However, this time neither of our codes would produce the right outcome:
 
-Other group's Markdown produced: [a.com, a.com((]
+<img width="816" alt="Screen Shot 2022-05-22 at 5 43 09 PM" src="https://user-images.githubusercontent.com/103228539/169723907-0d98d8b5-fe9c-41a5-990c-7b09f04c4aa2.png">
+
+<img width="708" alt="Screen Shot 2022-05-22 at 5 41 58 PM" src="https://user-images.githubusercontent.com/103228539/169723883-c980b3ca-ec37-40e3-bd62-15586381ce5d.png">
 
 ## Third Test
 
