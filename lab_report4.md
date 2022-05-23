@@ -55,4 +55,4 @@ The resulting output from both our and the other group's Markdown-Parser were th
 
 ## Conclusion
 
-This then concluded our 7th CSE15L lab on the reviewing another group's cod ein comparison to ours.
+This then concluded our 7th CSE15L lab on the reviewing another group's code in comparison to ours.
