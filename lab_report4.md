@@ -45,13 +45,13 @@ The resulting output from both our and the other group's Markdown-Parser were th
 ## Additional Questions
 
 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? If yes, describe the code change. If not, describe why it would be a more involved change.
- - 
+ - Yes there would be a way. Just create if-else statments of whether the test input has the correct brackets, and just ignore the existance of the backticks. This will cause the program to run. 
 
 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
- - 
+ - No I do not think that there would be a simple way to do this. Since the initial Markdown program is not designed with the intention to do this sort of action. Thus, one would have to make some hefty changes to the base code to get it to work
 
 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
- - 
+ - Yes I believe there is a way. Either import a method, or create a function with a loop that deletes all space and enter spaces in the parentheses. 
 
 ## Conclusion
 
