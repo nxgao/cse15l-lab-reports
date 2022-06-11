@@ -17,7 +17,7 @@ Finally , use the command `$ vimdiff my-markdown-parser/results.txt cse15lsp22-m
 
 ### Here are the [Results](https://github.com/nxgao/cse15l-lab-reports/blob/main/vimdiff_results.md)
 
-### Test-File 1:
+## Test-File 1:
 
 A pattern that can be seen throughout the results is that my Markdown-Parser had extra results when the downloaded Markdown-Parser had just `[]`. 
 
@@ -37,21 +37,21 @@ I was supoosed to not print anything, but my Markdown only recognizes the correc
 
 In order my my code to output the correct result, I would have to implement an if-statment that would read the link to see if it was an actualy link or not. If the text in the code was in the form of a link, then the code would continue, if not then we would delete the text in the parentheses. 
 
-### Test-File 2:
+## Test-File 2:
 
-This sort of problem would be the main pattern that appears throughout the vimdiff, with another being test-file :
+This sort of problem would be the main pattern that appears throughout the vimdiff, however, something different did occur with test-file 495:
 
-<img width="960" alt="vimdiff2 0" src="https://user-images.githubusercontent.com/103228539/171694796-ac028fcb-6bc0-487b-a316-3faeebbbc436.png">
+<img width="980" alt="Screen Shot 2022-06-10 at 7 41 49 PM" src="https://user-images.githubusercontent.com/103228539/173169572-4a1a7694-47d7-4041-a6e1-4852bb764c84.png">
 
-All the ones you see above, the test case were in the correct format of `[]()`. However, depeneding on how the link was written, the downloaded Markdown would somtimes not print, while my Markdown printed everything regardless. For example `test-file 567` was: 
+This time it would by my Markdown-Parser printing out an extra piece of text when the downloaded Markdown-Parser used for this lab would print out the same text, but with less closed parentese at the end. The correct answer in this case woudld still be the downloaded Markdown-Parser. The test-file itself looks like this:
 
-<img width="663" alt="Screen Shot 2022-06-02 at 10 55 39 AM" src="https://user-images.githubusercontent.com/103228539/171695624-2720d551-c325-4bf4-bf26-0718b81b0f8b.png">
+<img width="479" alt="Screen Shot 2022-06-10 at 7 41 43 PM" src="https://user-images.githubusercontent.com/103228539/173169627-ec15dfcc-2ba5-48db-a164-b94c95734e6c.png">
 
-And here are the differences in the results, with the correct output being the one of the left:
+The link itself has 3 close parenthese to match with the 3 open paentheses it has earlier, but my code only cares about seeing the first closed parenthese after the first open parenthese, ignoring the rest of the text. To fix this, this is my code:
 
-<img width="975" alt="vimdiff3" src="https://user-images.githubusercontent.com/103228539/171695760-8d457130-45e8-43be-97b1-f1559bc4475b.png">
+<img width="853" alt="Screen Shot 2022-06-10 at 7 31 54 PM" src="https://user-images.githubusercontent.com/103228539/173169292-8609e844-5f44-4e49-8219-07c3a5ab320c.png">
 
-I was supoosed to not print anything, but my Markdown only recognizes the correct format so it prints it as a link. This would be the common problem seen throughout the lab.
+What would need to happen is that I would need to edit the if-statment for the close parenthese, and rewrite it so that it would include the text after the closed parenthese until it hits the next `[`, or the end of the file where i would `.trim()` it.
 
 ## Conclusion
 
